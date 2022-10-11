@@ -1,17 +1,15 @@
 body {
-    min-height: 100vh;
-    box-sizing: border-box;
-    background: url('https://wallpaperaccess.com/full/91412.jpg');
+    background: #000;
 }
 
 .iphone{
     margin: auto;
-    border: 5px solid #b9b9b6;
-    border-radius: 40.9px;
+    border: 6px solid rgb(151, 151, 151);
+    border-radius: 60px;
     width: 372px;
     height: 760px;
     position: relative;
-    background: -webkit-linear-gradient(#b9b9b6,#000 1%);
+    background: -webkit-linear-gradient(left, #363636,#111010 4%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,11 +18,21 @@ body {
     width: 14px;
     height: 14px;
     position: absolute;
-    top: 36px;
+    top: 46px;
     left: 118px;
     border-radius: 50%;
     box-shadow: inset #666 -4px 0px 6px -4px;
     background: radial-gradient(#87888a,#030a18 33%);
+}
+.sensor{
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+    align-items: center;
+    border-radius: 30%;
+    box-shadow: inset rgb(71, 71, 71) -4px 0px 6px -4px;
+    background: radial-gradient(#323333,#061024 33%);
 }
 .speaker{
     width: 80px;
@@ -32,11 +40,11 @@ body {
     position: absolute;
     background: rgb(24, 23, 23);
     border-radius: 10px;
-    top: 40px;
+    top: 50px;
     box-shadow: inset #222 2 -2px 4px;
 }
 .screen{
-    background: #202020;
+    background: -webkit-linear-gradient(left, #131212,#000 80%);
     background-size: cover;
     width: 340px;
     height: 560px;
@@ -50,7 +58,72 @@ body {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: -webkit-linear-gradient(30deg,#666,#000,#666);
-    top: 678px;
+    border: 1px solid #282828;
+    background: rgb(16, 16, 16);
+    top: 672px;
     left: 155px;
+}
+.btn1{
+    position: absolute;
+    background: #ccc;
+    height: 25px;
+    width: 1px;
+    top: 110px;
+    left: -8px;
+}
+.btn2{
+    position: absolute;
+    background: rgb(186, 185, 185);
+    height: 50px;
+    width: 1px;
+    top: 170px;
+    left: -9px;
+}
+.btn3{
+    position: absolute;
+    background: rgb(186, 185, 185);
+    height: 50px;
+    width: 1px;
+    top: 240px;
+    left: -9px;
+}
+.btn4{
+    position: absolute;
+    background: rgb(186, 185, 185);
+    height: 50px;
+    width: 1px;
+    top: 170px;
+    right: -9px;
+}
+.ant1{
+    position: absolute;
+    background: rgb(186, 185, 185);
+    height: 10px;
+    width: 5px;
+    top: 60px;
+    left: -6px;
+}
+.ant2{
+    position: absolute;
+    background: rgb(186, 185, 185);
+    height: 10px;
+    width: 5px;
+    top: 60px;
+    right: -6px;
+}
+.ant3{
+    position: absolute;
+    background: rgb(186, 185, 185);
+    height: 10px;
+    width: 5px;
+    bottom: 50px;
+    left: -6px;
+}
+.ant4{
+    position: absolute;
+    background: rgb(186, 185, 185);
+    height: 10px;
+    width: 5px;
+    bottom: 50px;
+    right: -6px;
 }
