@@ -1,0 +1,56 @@
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: url('https://wallpaperaccess.com/full/91412.jpg');
+}
+
+.iphone{
+    margin: auto;
+    border: 5px solid #b9b9b6;
+    border-radius: 40.9px;
+    width: 372px;
+    height: 760px;
+    position: relative;
+    background: -webkit-linear-gradient(#b9b9b6,#000 1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.camera{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 36px;
+    left: 118px;
+    border-radius: 50%;
+    box-shadow: inset #666 -4px 0px 6px -4px;
+    background: radial-gradient(#87888a,#030a18 33%);
+}
+.speaker{
+    width: 80px;
+    height: 8px;
+    position: absolute;
+    background: rgb(24, 23, 23);
+    border-radius: 10px;
+    top: 40px;
+    box-shadow: inset #222 2 -2px 4px;
+}
+.screen{
+    background: #202020;
+    background-size: cover;
+    width: 340px;
+    height: 560px;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    
+}
+.home{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(30deg,#666,#000,#666);
+    top: 678px;
+    left: 155px;
+}
