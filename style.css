@@ -57,6 +57,35 @@ body {
     align-items: center;
     
 }
+.img1{
+    position: absolute;
+    width: 14.5px;
+    height: 10px;
+    left: 5px;
+    top: 5px;
+}
+.img2{
+    position: absolute;
+    top: 4px;
+    left: 25px;
+    width: 15px;
+    height: 12px;
+}
+.img3{
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    top: 5.5px;
+    right: 35px;
+}
+.img4{
+    position: absolute;
+    width: 22px;
+    height: 11px;
+    top: 5px;
+    right: 6px;
+
+}
 .scr{
     top: 70px;
     position: absolute;
