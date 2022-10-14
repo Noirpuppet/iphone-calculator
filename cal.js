@@ -7,7 +7,7 @@ function displayTime(){
         hrs = '0' + hrs;
     }
     if(min < 10){
-        min = '0' + hrs;
+        min = '0' + min;
     }
 
     document.getElementById('hours').innerHTML = hrs;
