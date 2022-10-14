@@ -9,27 +9,25 @@
   </head>
   <body>
     <div class="iphone">
-      <div class="camera"></div>
       <div class="sensor"></div>
+      <div class="camera"></div>
       <div class="speaker"></div>
 
-      <div class="screen">
-        <div class="network">
-          <img class="img1" src="img/network.png" />
+      <div class="display">
+        <div class="navbar">
+          <div>
+            <img src="img/network.png" />
+            <img src="img/wifi.png" />
+          </div>
+          <div>
+            <img src="img/lock.png" />
+            <img src="img/battery.png" />
+          </div>
         </div>
-        <div class="wifi">
-          <img class="img2" src="img/wifi.png" />
-        </div>
-        <div class="time"></div>
-        <div class="lock">
-          <img class="img3" src="img/sfgg.png" />
-        </div>
-        <div class="battery">
-          <img class="img4" src="img/battery.png" />
-        </div>
-        <section class="cal">
+
+        <section class="calculator">
           <form>
-            <input type="text" class="scr" />
+            <input type="text" class="screen" />
           </form>
 
           <div class="buttons">
@@ -61,23 +59,28 @@
             <button type="button" class="btn btn-grey" data-num="3">3</button>
             <button type="button" class="btn btn-yellow" data-num="+">+</button>
 
-            <button type="button" class="btn btn-red">AC</button>
+            <button type="button" class="btn btn-clear">AC</button>
             <button type="button" class="btn btn-grey" data-num="0">0</button>
             <button type="button" class="btn btn-grey" data-num=".">.</button>
-            <button type="button" class="btn btn-green">=</button>
+            <button type="button" class="btn btn-equal">=</button>
           </div>
         </section>
+        <script src="cal.js"></script>
       </div>
 
       <div class="home"></div>
-      <div class="btn1"></div>
-      <div class="btn2"></div>
-      <div class="btn3"></div>
-      <div class="btn4"></div>
-      <div class="ant1"></div>
-      <div class="ant2"></div>
-      <div class="ant3"></div>
-      <div class="ant4"></div>
+      <div>
+        <p class="silent"></p>
+        <p class="up"></p>
+        <p class="down"></p>
+        <p class="on-off"></p>
+      </div>
+      <div>
+        <span class="top-left"></span>
+        <span class="top-right"></span>
+        <span class="bottom-left"></span>
+        <span class="bottom-right"></span>
+      </div>
     </div>
   </body>
 </html>

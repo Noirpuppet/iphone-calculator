@@ -6,28 +6,21 @@ body {
     align-items: center;
 }
 
+/**********The model iphone SE(2020)white 2nd generation**********/
 .iphone{
     margin: auto;
     border: 6px solid rgb(151, 151, 151);
     border-radius: 60px;
     width: 372px;
     height: 760px;
-    position: relative;
+    position: absolute;
     background: -webkit-linear-gradient(left, #363636,#090909 4%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.camera{
-    width: 14px;
-    height: 14px;
-    position: absolute;
-    top: 46px;
-    left: 118px;
-    border-radius: 50%;
-    box-shadow: inset #666 -4px 0px 6px -4px;
-    background: radial-gradient(#87888a,#030a18 33%);
-}
+
+/**********iphone top Bezel**********/
 .sensor{
     width: 15px;
     height: 7px;
@@ -38,6 +31,20 @@ body {
     box-shadow: inset rgb(71, 71, 71) -4px 0px 6px -4px;
     background: radial-gradient(#323333,#02050c 33%);
 }
+
+
+.camera{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 46px;
+    left: 118px;
+    border-radius: 50%;
+    box-shadow: inset #666 -4px 0px 6px -4px;
+    background: radial-gradient(#87888a,#030a18 33%);
+}
+
+
 .speaker{
     width: 80px;
     height: 8px;
@@ -47,46 +54,32 @@ body {
     top: 50px;
     box-shadow: inset #222 2 -2px 4px;
 }
-.screen{
+
+/**********iphone Display**********/
+.display{
     background: #000;
     background-size: cover;
     width: 340px;
     height: 560px;
     margin: auto;
-    position: relative;
+    position: absolute;
     align-items: center;
     
 }
-.img1{
-    position: absolute;
-    width: 14.5px;
-    height: 10px;
-    left: 5px;
-    top: 5px;
-}
-.img2{
-    position: absolute;
-    top: 4px;
-    left: 25px;
-    width: 15px;
-    height: 12px;
-}
-.img3{
-    position: absolute;
-    width: 12px;
-    height: 10px;
-    top: 5.5px;
-    right: 35px;
-}
-.img4{
-    position: absolute;
-    width: 22px;
-    height: 11px;
-    top: 5px;
-    right: 6px;
 
+/**********Notifications and Status icon**********/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
-.scr{
+img{
+    width: 18px;
+    height: 10px;
+}
+
+/**********Calculator Screen**********/
+.screen{
     top: 70px;
     position: absolute;
     width: 320px;
@@ -102,11 +95,11 @@ body {
 }
 .buttons{
     position: absolute;
-    bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
+    bottom: 10px;
 }
 button{
     width: 70px;
@@ -128,13 +121,14 @@ button{
 .btn-grey{
     background: rgb(80, 80, 80);
 }
-.btn-red{
+.btn-clear{
     background: rgb(100, 39, 39);
 }
-.btn-green{
+.btn-equal{
     background: rgb(39, 100, 39);
 }
 
+/**********Home/Touch ID**********/
 .home{
     position: absolute;
     width: 65px;
@@ -145,67 +139,55 @@ button{
     top: 672px;
     left: 155px;
 }
-.btn1{
+
+/*********Physical bottom**********/
+p{
     position: absolute;
-    background: #ccc;
+    background: rgb(186, 185, 185);
+    height: 50px;
+    width: 2px;
+}
+.silent{
     height: 25px;
-    width: 1px;
     top: 110px;
     left: -8px;
 }
-.btn2{
-    position: absolute;
-    background: rgb(186, 185, 185);
-    height: 50px;
-    width: 1px;
-    top: 170px;
-    left: -9px;
-}
-.btn3{
-    position: absolute;
-    background: rgb(186, 185, 185);
-    height: 50px;
-    width: 1px;
-    top: 240px;
-    left: -9px;
-}
-.btn4{
-    position: absolute;
-    background: rgb(186, 185, 185);
-    height: 50px;
-    width: 1px;
+.on-off{
     top: 170px;
     right: -9px;
 }
-.ant1{
+.up{
+    top: 170px;
+    left: -9px;
+}
+.down{
+    top: 240px;
+    left: -9px;
+}
+
+/**********The annthena**********/
+span{
     position: absolute;
     background: rgb(186, 185, 185);
     height: 10px;
     width: 5.6px;
+}
+.top-left{
     top: 60px;
     left: -6px;
 }
-.ant2{
-    position: absolute;
-    background: rgb(186, 185, 185);
-    height: 10px;
-    width: 5.6px;
+.top-right{
     top: 60px;
     right: -6px;
 }
-.ant3{
-    position: absolute;
-    background: rgb(186, 185, 185);
-    height: 10px;
-    width: 5.6px;
-    bottom: 50px;
+.bottom-left{
+    bottom: 60px;
     left: -6px;
 }
-.ant4{
-    position: absolute;
-    background: rgb(186, 185, 185);
-    height: 10px;
-    width: 5.6px;
-    bottom: 50px;
+.bottom-right{
+    bottom: 60px;
     right: -6px;
 }
+
+
+
