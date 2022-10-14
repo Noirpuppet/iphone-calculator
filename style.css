@@ -75,7 +75,13 @@ body {
 }
 img{
     width: 18px;
-    height: 10px;
+    height: 12px;
+}
+.time{
+    font-family: roboto;
+    color: #fff;
+    font-weight: bold;
+    font-size: medium;
 }
 
 /**********Calculator Screen**********/
@@ -115,17 +121,34 @@ button{
     color: #000;
     background: rgb(212, 212, 210);
 }
+.btn-silver:active{
+    background: rgb(255, 255, 255);
+}
 .btn-yellow{
     background: rgb(255, 149, 0);
+}
+.btn-yellow:focus{
+    background: rgb(255, 255, 255);
+    color: rgb(255, 148, 0);
+    transition: 0.2s ease-in-out;
 }
 .btn-grey{
     background: rgb(80, 80, 80);
 }
+.btn-grey:active{
+    background: rgb(120, 120, 120);
+}
 .btn-clear{
     background: rgb(100, 39, 39);
 }
+.btn-clear:active{
+    background: rgb(120, 56, 56);
+}
 .btn-equal{
     background: rgb(39, 100, 39);
+}
+.btn-equal:active{
+    background: rgb(59, 125, 59);
 }
 
 /**********Home/Touch ID**********/
@@ -141,7 +164,7 @@ button{
 }
 
 /*********Physical bottom**********/
-p{
+.phy-btn{
     position: absolute;
     background: rgb(186, 185, 185);
     height: 50px;
@@ -166,7 +189,7 @@ p{
 }
 
 /**********The annthena**********/
-span{
+.ant{
     position: absolute;
     background: rgb(186, 185, 185);
     height: 10px;
