@@ -74,9 +74,36 @@ body {
     padding: 5px;
 }
 
+.signal{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    top: 7.5px;
+    left: 8px;
+}
+.signal-strength{
+    width: 3.5px;
+    height: 6px;
+    border-radius: 1.5px;
+    background: #ffffff;
+}
+
+.signal-strength:nth-child(2){
+    height: 8px;
+}
+.signal-strength:nth-child(3){
+    height: 10px;
+    background: #373737;
+}
+.signal-strength:nth-child(4){
+    height: 12px;
+    background: #373737;
+}
+
 .wifi{
-    top: 19px;
-    left: 60px;
+    top: 20px;
+    left: 45px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -89,30 +116,30 @@ body {
     border-radius: 150px;
     border-top: 6px solid #ffffff;
     border: 4px solid #000;
-    animation: load 2s linear infinite;
+    animation: load 3s linear infinite;
 }
 .wifi-item:nth-child(1){
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 .wifi-item:nth-child(2){
     width: 9.2px;
     height: 9px;
-    animation-delay: 0.6s;
+    animation-delay: 1.8s;
 }
 .wifi-item:nth-child(3){
     width: 0.1px;
     height: 0.1px;
-    animation-delay: 0.2s;
+    animation-delay: 1.6s;
 }
 @keyframes load
 {
-    70%,100%
+    100%
+    {
+        border-top-color: #373737;
+    }
+    0%
     {
         border-top-color: #ffffff;
-    }
-    0%,40%
-    {
-        border-top-color: #4e4e4e:
     }
 }
 
@@ -133,10 +160,10 @@ body {
 
 .battery{
     width: 46px;
-    height: 24px;
+    height: 22px;
     top: 0.8px;
     right: -5px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 6px;
     position: absolute;
     transform: scale(-50%, -50%);
@@ -145,10 +172,10 @@ body {
     content: '';
     position: absolute;
     transform: translateY(-50%);
-    width: 3px;
-    height: 10px;
+    width: 2px;
+    height: 8px;
     top: 11px;
-    left: -3px;
+    left: -6px;
     background: #fff;
     border-radius: 5px;
 }
@@ -160,7 +187,7 @@ body {
     right: 0.5px;
     height: 90%;
     width: 69%;
-    background: #c8f86b;
+    background: #c0ee3a;
 }
 
 /**********Calculator Screen**********/

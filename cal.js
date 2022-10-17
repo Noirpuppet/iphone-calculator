@@ -13,8 +13,23 @@ function displayTime(){
     document.getElementById('hours').innerHTML = hrs;
     document.getElementById('minutes').innerHTML = min;
 }
-
 setInterval(displayTime, 10);
+
+const screen = document.querySelector(".screen");
+const buttons = document.querySelectorAll('.btn');
+
+
+let firstValue = "";
+let isfirstValue = false;
+let secondValue = "";
+let isSecondValue = fasle;
+let sign = "";
+let resultValue = 0;
+
+
+
+
+
 
 
 
