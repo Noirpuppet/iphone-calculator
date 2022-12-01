@@ -33,9 +33,9 @@
             </span>
           </div>
           <div class="time">
-            <span id="hours"></span>
+            <span id="hours">00</span>
             <span>:</span>
-            <span id="minutes"></span>
+            <span id="minutes">00</span>
           </div>
           <div>
             <span class="percentage">69%</span>
@@ -45,35 +45,32 @@
         </div>
 
         <section class="calculator">
-          <form>
-            <input type="text" class="screen" />
-          </form>
-
+          <div id="screen">0</div>
           <div class="buttons">
-            <button class="btn btn-silver sign">&#8730;</button>
-            <button class="btn btn-silver negative">+/-</button>
-            <button class="btn btn-silver sign">%</button>
-            <button class="btn btn-yellow sign">&divide;</button>
+            <button class="btn-silver root">&#8730;</button>
+            <button class="btn-silver negative">+/-</button>
+            <button class="btn-silver parsent">%</button>
+            <button class="btn-yellow sign">÷</button>
 
-            <button class="btn btn-grey numbers">7</button>
-            <button class="btn btn-grey numbers">8</button>
-            <button class="btn btn-grey numbers">9</button>
-            <button class="btn btn-yellow sign">&#215;</button>
+            <button class="btn-grey num">7</button>
+            <button class="btn-grey num">8</button>
+            <button class="btn-grey num">9</button>
+            <button class="btn-yellow sign">×</button>
 
-            <button class="btn btn-grey numbers">4</button>
-            <button class="btn btn-grey numbers">5</button>
-            <button class="btn btn-grey numbers">6</button>
-            <button class="btn btn-yellow sign">-</button>
+            <button class="btn-grey num">4</button>
+            <button class="btn-grey num">5</button>
+            <button class="btn-grey num">6</button>
+            <button class="btn-yellow sign">-</button>
 
-            <button class="btn btn-grey numbers">1</button>
-            <button class="btn btn-grey numbers">2</button>
-            <button class="btn btn-grey numbers">3</button>
-            <button class="btn btn-yellow sign">+</button>
+            <button class="btn-grey num">1</button>
+            <button class="btn-grey num">2</button>
+            <button class="btn-grey num">3</button>
+            <button class="btn-yellow sign">+</button>
 
-            <button class="btn btn-clear clear">AC</button>
-            <button class="btn btn-grey numbers">0</button>
-            <button class="btn btn-grey sign">.</button>
-            <button class="btn btn-equal equal">=</button>
+            <button class="btn-clear clear">AC</button>
+            <button class="btn-grey num">0</button>
+            <button class="btn-grey decimal">.</button>
+            <button class="btn-equal equal">=</button>
           </div>
         </section>
       </div>
@@ -95,3 +92,6 @@
     <script src="cal.js"></script>
   </body>
 </html>
+
+
+

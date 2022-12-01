@@ -191,20 +191,20 @@ body {
 }
 
 /**********Calculator Screen**********/
-.screen{
-    top: 70px;
+#screen{
+    top: 80px;
     position: absolute;
-    width: 320px;
-    height: 100px;
+    width: 300px;
+    height: 75px;
     border: none;
-    font-size: 4rem;
-    padding: 10px;
+    font-size: 4.25rem;
+    font-family: SF Pro;
+    padding: 12px;
     text-align: right;
     color: #fff;
-    background: #000;
-    pointer-events: none;
-    
+    background: rgb(0, 0, 0);
 }
+
 .buttons{
     position: absolute;
     display: flex;
@@ -218,10 +218,10 @@ button{
     height: 70px;
     border-radius: 50%;
     padding: 20px;
-    font-size: 1.4rem;
-    font-family: 'Roboto';
-    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'SF Pro';
     color: #fff;
+    text-align: center;
 }
 .btn-silver{
     color: #000;
@@ -245,16 +245,17 @@ button{
     background: rgb(120, 120, 120);
 }
 .btn-clear{
-    background: rgb(100, 39, 39);
+    background: rgb(160, 53, 71);
+    padding: 0 0 2px 0;
 }
 .btn-clear:active{
-    background: rgb(120, 56, 56);
+    background: rgb(181, 78, 78);
 }
 .btn-equal{
-    background: rgb(39, 100, 39);
+    background: rgb(83, 162, 83);
 }
 .btn-equal:active{
-    background: rgb(59, 125, 59);
+    background: rgb(134, 207, 134);
 }
 
 /**********Home/Touch ID**********/
@@ -317,6 +318,3 @@ button{
     bottom: 60px;
     right: -6px;
 }
-
-
-
